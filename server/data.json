@@ -1,0 +1,25 @@
+{
+    "data":[
+        {
+            "id":1,
+            "name":"Fire",
+            "symbol":"🔥"
+            
+        },
+        {
+            "id":2,
+            "name":"Water",
+            "symbol":"💧"
+        },
+        {
+            "id":3,
+            "name":"Air",
+            "symbol":"🌀"
+        },
+        {
+            "id":4,
+            "name":"Rock",
+            "symbol":"🪨"
+        }
+    ]
+}
