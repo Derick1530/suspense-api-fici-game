@@ -1,9 +1,3 @@
-const fetchFici = (search) => {
-    return fetch(`http://localhost:7000/data?q=${search}`)
-        .then(res => res.json())
-        .catch(err => console.log(err))
-}
-
 const wrapPromise = (promise) => {
     let status = 'pending';
     let result = '';
@@ -29,8 +23,9 @@ const wrapPromise = (promise) => {
     }
 }
 
-export const createResource = (search) => {
+export const createResource = () => {
     return {
-        data: wrapPromise(fetchFici(search))
+        data: wrapPromise()
     }
 }
+
